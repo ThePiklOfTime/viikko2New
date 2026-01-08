@@ -10,6 +10,7 @@ public class App
         Scanner scanner = new Scanner(System.in);
         System.out.print("Anna auton merkki: ");
         String brand = scanner.nextLine();
+        System.out.println();
         System.out.print("Anna auton malli: ");
         String malli = scanner.nextLine();
         var car = new Car(brand, malli, 0);

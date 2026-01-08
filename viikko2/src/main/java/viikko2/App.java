@@ -17,7 +17,7 @@ public class App
         System.out.println();
 
         while (!exit) {
-            System.out.println("1) Näytä auton tila, \n2) Muokkaa auton merkkiä ja mallia, \n3) Kiihdytä autoa, \n4) Hidasta autoa \n0) Lopeta ohjelma");
+            System.out.println("1) Näytä auton tila \n2) Muokkaa auton merkkiä ja mallia \n3) Kiihdytä autoa \n4) Hidasta autoa \n0) Lopeta ohjelma");
             
             
             if(scanner.hasNext()){

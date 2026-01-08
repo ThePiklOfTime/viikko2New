@@ -44,6 +44,15 @@ public class App
                     }
                     car.Kiihdytä(kiihdytys);
                     break;
+                  case 4:
+                    System.out.print("Kuinka monta km/h haluat hidastaa? ");
+                    int jarrutus = Integer.parseInt(scanner.nextLine());
+                    if (jarrutus < 0) {
+                        System.out.println("Nopeuden täytyy olla positiivinen luku.");
+                        break;
+                    }
+                    car.Jarruta(jarrutus);
+                    break;
                 case 0:
                     exit = true;
                     break;

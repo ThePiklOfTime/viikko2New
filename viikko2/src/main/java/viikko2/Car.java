@@ -18,4 +18,10 @@ public class Car {
     public void Kiihdytä(int kiihdytys){
       this.speed += kiihdytys;
     }
+    public void Jarruta(int jarrutus){
+      this.speed += jarrutus;
+      if (this.speed < 0) {
+        this.speed = 0;
+      }
+    }
 }

@@ -39,7 +39,7 @@ public class App
                     System.out.print("Kuinka monta km/h haluat kiihdyttää? ");
                     int kiihdytys = Integer.parseInt(scanner.nextLine());
                     if (kiihdytys < 0) {
-                        System.out.println("Nopeuden täytyy olla positiivinen luku");
+                        System.out.println("Nopeuden täytyy olla positiivinen luku.");
                         break;
                     }
                     car.Kiihdytä(kiihdytys);

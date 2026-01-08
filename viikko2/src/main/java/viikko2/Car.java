@@ -12,7 +12,7 @@ public class Car {
     }
 
     public void status(){
-      System.out.println("Auto " + this.brand + " " + this.model + ", Nopeus: " + this.speed + " km/h");
+      System.out.println("Auto: " + this.brand + " " + this.model + ", Nopeus: " + this.speed + " km/h");
     }
     
 }

@@ -27,6 +27,13 @@ public class App
                 case 1:
                     car.status();
                     break;
+                case 2:
+                    System.out.print("Anna uusi auton merkki: ");
+                    String uusimerkki = scanner.nextLine();
+                    System.out.print("Anna uusi auton malli: ");
+                    String uusimalli = scanner.nextLine();
+                    car.brand = uusimerkki;
+                    car.model = uusimalli;
                 case 0:
                     exit = true;
                     break;

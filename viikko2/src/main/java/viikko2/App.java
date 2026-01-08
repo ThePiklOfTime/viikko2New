@@ -35,6 +35,15 @@ public class App
                     car.brand = uusimerkki;
                     car.model = uusimalli;
                     break;
+                case 3:
+                    System.out.print("Kuinka monta km/h haluat kiihdyttää? ");
+                    int kiihdytys = Integer.parseInt(scanner.nextLine());
+                    if (kiihdytys < 0) {
+                        System.out.println("Nopeuden täytyy olla positiivinen luku");
+                        break;
+                    }
+                    car.Kiihdytä(kiihdytys);
+                    break;
                 case 0:
                     exit = true;
                     break;

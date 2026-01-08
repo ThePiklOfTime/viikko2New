@@ -15,4 +15,7 @@ public class Car {
       System.out.println("Auto: " + this.brand + " " + this.model + ", Nopeus: " + this.speed + " km/h");
     }
     
+    public void Kiihdytä(int kiihdytys){
+      this.speed += kiihdytys;
+    }
 }

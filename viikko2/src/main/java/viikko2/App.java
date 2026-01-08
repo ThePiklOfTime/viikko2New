@@ -34,6 +34,7 @@ public class App
                     String uusimalli = scanner.nextLine();
                     car.brand = uusimerkki;
                     car.model = uusimalli;
+                    break;
                 case 0:
                     exit = true;
                     break;

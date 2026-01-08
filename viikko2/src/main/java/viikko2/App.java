@@ -24,8 +24,7 @@ public class App
             
             switch (i) {
                 case 1:
-                    System.out.println("Mitä siili sanoo:");
-                    String sanominen = scanner.nextLine();
+                    car.status();
                     break;
                 case 0:
                     exit = true;

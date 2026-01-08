@@ -10,5 +10,9 @@ public class Car {
     this.model = model;
     this.speed = speed;
     }
+
+    public void status(){
+      System.out.println("Auto " + this.brand + " " + this.model + ", Nopeus: " + this.speed + " km/h");
+    }
     
 }
